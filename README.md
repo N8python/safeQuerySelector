@@ -14,4 +14,4 @@ If you have multiple elements involved in a program, this can become cluttered. 
 const elem = safeQuerySelector("#test");
 elem.innerHTML = "Hello World";
 ```
-No need to worry about strict null checks! If the query dosen't return anything, you get back a div element that won't do anything, as it has not been added to the DOM.
+No need to worry about strict null checks! If the query dosen't return anything, you get back a ```div``` element that won't do anything, as it has not been added to the DOM.
